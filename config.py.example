@@ -1,0 +1,16 @@
+import os
+
+# Credenciais do MySQL Local
+DB_CONFIG = {
+    'host': 'localhost',
+    'user': 'root',               # Seu usuário do MySQL
+    'password': '[SENHA DO BANCO]',    # Sua senha do MySQL
+    'database': 'pokemon_auction' # Nome do banco de dados criado
+}
+
+# Configurações do WhatsApp
+ADMIN_PHONE = "[TELEFONE]"        # Número/contato do administrador
+TARGET_GROUP_NAME = "[NOME DO GRUPO]" # Nome exato do grupo no WhatsApp
+
+# Caminho da sessão do Chrome (para salvar o login do QR Code)
+PROFILE_DIR = os.path.join(os.getcwd(), "whatsapp_profile")

@@ -1,0 +1,22 @@
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Ambiente Virtual
+.venv/
+venv/
+env/
+
+# Sessão do WhatsApp / Dados Locais
+whatsapp_profile/
+
+# Arquivos de Log e Compactados
+*.zip
+Arquivo.zip
+*.log
+
+# Arquivos de Sistema
+.DS_Store
+__MACOSX/
+
+config.py
